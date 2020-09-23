@@ -1,0 +1,67 @@
+body {
+  background-color: #fafaeb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  background-color: #dbdbb9;
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+  padding: 1%;
+}
+
+.links {
+  width: 50%;
+  padding-right: 3%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+#hero {
+  height: 300px;
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+  text-shadow: 1px 1px #909090;
+}
+
+#about {
+  padding-top: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14px;
+}
